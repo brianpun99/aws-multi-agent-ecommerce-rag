@@ -9,13 +9,6 @@ __pycache__/
 .eggs/
 
 # ─────────────────────────────────────────────
-# Environment & Secrets
-# ─────────────────────────────────────────────
-.env
-.env.*
-!.env.example
-
-# ─────────────────────────────────────────────
 # Claude Code session data
 # ─────────────────────────────────────────────
 .claude/
@@ -25,7 +18,7 @@ __pycache__/
 # ─────────────────────────────────────────────
 payload.json
 response.json
-build/
+build/runtime/.agentcore-runtime
 
 # ─────────────────────────────────────────────
 # AgentCore CLI (agentcore deploy) artifacts
